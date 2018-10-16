@@ -1,0 +1,94 @@
+body{
+	background: #fffeed;
+	width: auto;
+}
+
+.cabecalho{
+	padding: 5px;
+	background: #BFCFF4;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 5px solid #A5BAEC;
+	border-radius: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.cabecalho img{
+	max-width: 250px;
+	border-radius: 150px;
+}
+
+.cabecalho nome-cargo {
+	float: right;
+} 
+
+.titulo{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projetos{
+
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projetos img{
+	padding: 5px;
+	max-width: 250px;
+	border-radius: 20px;
+}
+
+.projetos div{
+	padding: 5px;
+	max-width: 250px;
+	border-radius: 20px;
+}
+
+.rodape{
+
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 30px;
+	background: #A5BAEC;
+    color: white;
+    padding: 2px;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github{
+  background: #000;
+  color: white;
+}
+
+.fa-envelope {
+	background:#38EC4A;
+	color: white;
+}
+
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
